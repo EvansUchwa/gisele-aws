@@ -85,3 +85,9 @@ button {
 .fx-aCenter {
     align-items: center;
 }
+
+@media screen and (max-width: 400px) {
+    :root {
+        --appWidth: 100%;
+    }
+}
