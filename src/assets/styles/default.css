@@ -1,0 +1,87 @@
+:root {
+    --primary: #4aacf7;
+    --primaryOpacity: #4aacf730;
+    --appWidth: 400px;
+}
+
+@font-face {
+    font-family: ProdigySans-Regular;
+    src: url('../fonts/ProdigySans-Regular.ttf');
+}
+
+@font-face {
+    font-family: ProdigySans-SemiBold;
+    src: url('../fonts/ProdigySans-SemiBold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b {
+    font-family: ProdigySans-SemiBold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+span {
+    font-family: ProdigySans-Regular;
+}
+
+button {
+    padding: 8px 12px;
+    border: 0;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    font-family: ProdigySans-Regular;
+}
+
+
+.textCenter {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.fx-between {
+    justify-content: space-between;
+}
+
+.fx-center {
+    justify-content: center;
+}
+
+.fx-aCenter {
+    align-items: center;
+}

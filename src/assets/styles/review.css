@@ -1,0 +1,44 @@
+.review {
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.reviewSection {
+    padding: 30px 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.reviewSection span {
+    position: absolute;
+    background-color: var(--primary);
+    color: white;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.rs-smiles {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.rs-actions {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.rs-actions button {}

@@ -1,0 +1,38 @@
+.App {
+    background-color: #efefef;
+    min-height: 100vh;
+    width: 400px;
+    margin: auto;
+}
+
+.home {
+    padding: 30px 0;
+}
+
+.homeUserCurrentPosition {
+    gap: 0 10px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+.homePopularPlaces {
+    margin: 25px auto;
+    width: 90%;
+}
+
+.hppTitles {
+    margin-bottom: 20px;
+}
+
+.hppPlaces {
+    width: 100%;
+    /* display: flex; */
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
